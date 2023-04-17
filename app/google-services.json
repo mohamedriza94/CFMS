@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655761572473",
+    "firebase_url": "https://cfms-f0124-default-rtdb.firebaseio.com",
+    "project_id": "cfms-f0124",
+    "storage_bucket": "cfms-f0124.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655761572473:android:cea9898b43adbad6ff0aa8",
+        "android_client_info": {
+          "package_name": "com.example.cfms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655761572473-a0a3m81b6fk4t8e493gdm91c3i9f1aaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSSn5url40Oog6evDHpMILTk2yn5hZ2rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655761572473-a0a3m81b6fk4t8e493gdm91c3i9f1aaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
