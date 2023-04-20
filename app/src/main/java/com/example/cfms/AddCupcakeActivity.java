@@ -36,6 +36,7 @@ public class AddCupcakeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 insertData();
+                clearAll();
             }
         });
 
@@ -69,5 +70,13 @@ public class AddCupcakeActivity extends AppCompatActivity {
                         Toast.makeText(AddCupcakeActivity.this,"Failure. Try Again",Toast.LENGTH_SHORT).show();
                     }
                 });
+    }
+
+    private void clearAll()
+    {
+        name.setText("");
+        price.setText("");
+        description.setText("");
+        photoURL.setText("");
     }
 }
