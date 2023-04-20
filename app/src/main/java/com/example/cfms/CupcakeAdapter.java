@@ -51,7 +51,8 @@ public class CupcakeAdapter extends FirebaseRecyclerAdapter<CupcakeModel,Cupcake
                         .create();
 
                 //dialogPlus.show();
-                View view = dialogPlus.getHeaderView();
+                View view = dialogPlus.getHolderView();
+
                 EditText name = view.findViewById(R.id.txtName);
                 EditText price = view.findViewById(R.id.txtPrice);
                 EditText description = view.findViewById(R.id.txtDescription);
@@ -61,8 +62,8 @@ public class CupcakeAdapter extends FirebaseRecyclerAdapter<CupcakeModel,Cupcake
 
                 name.setText(model.getName());
                 price.setText(model.getPrice());
-                description.setText(model.getDescription());
                 photoURL.setText(model.getPhoto());
+                description.setText(model.getDescription());
 
                 dialogPlus.show();
             }
@@ -79,7 +80,7 @@ public class CupcakeAdapter extends FirebaseRecyclerAdapter<CupcakeModel,Cupcake
     class myViewHolder extends RecyclerView.ViewHolder {
 
         CircleImageView img;
-        TextView name,price;
+        TextView name,price,description;
 
         Button btnEdit,btnDelete;
 
@@ -90,8 +91,8 @@ public class CupcakeAdapter extends FirebaseRecyclerAdapter<CupcakeModel,Cupcake
             name = (TextView) itemView.findViewById(R.id.nametext);
             price = (TextView) itemView.findViewById(R.id.pricetext);
 
-            btnEdit = (Button)itemView.findViewById(R.id.btnEdit);
-            btnDelete = (Button)itemView.findViewById(R.id.btnDelete);
+            btnEdit = (Button) itemView.findViewById(R.id.btnEdit);
+            btnDelete = (Button) itemView.findViewById(R.id.btnDelete);
         }
   }
 }
