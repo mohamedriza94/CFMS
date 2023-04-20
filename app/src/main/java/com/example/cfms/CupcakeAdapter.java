@@ -130,6 +130,7 @@ public class CupcakeAdapter extends FirebaseRecyclerAdapter<CupcakeModel,Cupcake
                         Toast.makeText(holder.name.getContext(),"Cancelled",Toast.LENGTH_SHORT).show();
                     }
                 });
+                builder.show();
             }
         });
     }
