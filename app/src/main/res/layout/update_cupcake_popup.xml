@@ -31,7 +31,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="left"
-        android:idd="@+id/txtName"/>
+        android:id="@+id/txtName"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -49,7 +49,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="left"
-        android:idd="@+id/txtPrice"/>
+        android:id="@+id/txtPrice"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -67,7 +67,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="left"
-        android:idd="@+id/txtDescription"/>
+        android:id="@+id/txtDescription"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -85,7 +85,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="left"
-        android:idd="@+id/txtPhotoURL"/>
+        android:id="@+id/txtPhotoURL"/>
 
     <Button
         android:layout_width="match_parent"
